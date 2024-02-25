@@ -2,10 +2,10 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.google.gms.google.services)
-    id ("kotlin-kapt")
-    id ("kotlin-parcelize")
+    id("kotlin-kapt")
+    id("kotlin-parcelize")
     id("com.google.devtools.ksp")
-    id ("androidx.navigation.safeargs")
+    id("androidx.navigation.safeargs")
 }
 
 android {
@@ -63,23 +63,28 @@ dependencies {
     implementation libs.play.services.auth
 
     // ROOM
-    implementation ("androidx.room:room-runtime:2.6.1")
-    ksp("androidx.room:room-compiler:2.6.1")
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
-    implementation ("androidx.room:room-ktx:2.6.1")
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.room.ktx)
 
     // Navigation
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
 
     // ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation(libs.androidx.lifecycle.viewmodel.ktx.v262)
 
     // LiveData
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
-    ksp("androidx.lifecycle:lifecycle-compiler:2.6.2")
+    ksp(libs.androidx.lifecycle.compiler)
+
+
+    // The default implementations
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
 
 }

@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.notesapp.fragments.HomeFragmentDirections","com.example.notesapp.fragments.AddNoteFragmentDirections","com.example.notesapp.fragments.EditNoteFragmentDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.example.notesapp.fragments.HomeFragmentDirections","com.example.notesapp.fragments.AddNoteFragmentDirections","com.example.notesapp.fragments.EditNoteFragmentDirections","com.example.notesapp.fragments.EditNoteFragmentArgs"]}]

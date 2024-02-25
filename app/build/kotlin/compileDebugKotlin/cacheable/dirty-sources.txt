@@ -2,7 +2,9 @@ C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\note
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\fragments\AddNoteFragment.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\database\NoteDatabase.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\model\Note.kt
+C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\adaptor\NoteAdaptor.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\MainActivity.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\SignInActivity.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\fragments\HomeFragment.kt
 C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\fragments\EditNoteFragment.kt
+C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\java\com\example\notesapp\repository\NotesRepository.kt
