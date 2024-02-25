@@ -3238,6 +3238,7 @@ id accessibility_custom_action_9
 id actionDown
 id actionDownUp
 id actionUp
+id action_addNoteFragment_to_homeFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -3248,6 +3249,9 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_editNoteFragment_to_homeFragment
+id action_homeFragment_to_addNoteFragment
+id action_homeFragment_to_editNoteFragment
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -4011,6 +4015,7 @@ string dest_title
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
+string fab
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
@@ -4142,6 +4147,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string signIn
 string status_bar_notification_info_overflow
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -12,7 +12,7 @@
         </item>
     </string-array></file><file path="C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/poppins</item>
-    </array></file><file path="C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">NotesApp</string><string name="signIn">Sign up with Google</string><string name="noNotesMsg">No notes to available</string><string name="hello_blank_fragment">Hello blank fragment</string></file><file path="C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.NotesApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    </array></file><file path="C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">NotesApp</string><string name="signIn">Sign up with Google</string><string name="noNotesMsg">No notes to available</string><string name="hello_blank_fragment">Hello blank fragment</string><string name="fab">FAB</string><string name="welcome">Welcome</string></file><file path="C:\Users\soura\AndroidStudioProjects\NotesApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.NotesApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
         
         
         <item name="colorPrimary">@color/pink</item>

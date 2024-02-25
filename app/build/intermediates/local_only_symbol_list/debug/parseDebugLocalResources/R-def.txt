@@ -23,6 +23,10 @@ drawable ic_launcher_foreground
 drawable ic_search
 drawable outline_add_24
 font poppins
+id action_addNoteFragment_to_homeFragment
+id action_editNoteFragment_to_homeFragment
+id action_homeFragment_to_addNoteFragment
+id action_homeFragment_to_editNoteFragment
 id addNoteDesc
 id addNoteFab
 id addNoteFragment
@@ -60,6 +64,7 @@ mipmap ic_launcher_round
 navigation nav_graph
 string app_name
 string default_web_client_id
+string fab
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -69,6 +74,7 @@ string hello_blank_fragment
 string noNotesMsg
 string project_id
 string signIn
+string welcome
 style Base.Theme.NotesApp
 style Theme.NotesApp
 xml backup_rules
