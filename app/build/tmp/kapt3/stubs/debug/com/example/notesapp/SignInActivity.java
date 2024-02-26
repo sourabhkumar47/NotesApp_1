@@ -4,23 +4,23 @@ package com.example.notesapp;
 public final class SignInActivity extends androidx.appcompat.app.AppCompatActivity {
     private static final int RC_SIGN_IN = 9001;
     private com.google.firebase.auth.FirebaseAuth auth;
-    @org.jetbrains.annotations.NotNull
+    @org.jetbrains.annotations.NotNull()
     public static final com.example.notesapp.SignInActivity.Companion Companion = null;
     
     public SignInActivity() {
         super();
     }
     
-    @java.lang.Override
-    protected void onCreate(@org.jetbrains.annotations.Nullable
+    @java.lang.Override()
+    protected void onCreate(@org.jetbrains.annotations.Nullable()
     android.os.Bundle savedInstanceState) {
     }
     
     private final void signIn() {
     }
     
-    @java.lang.Override
-    protected void onActivityResult(int requestCode, int resultCode, @org.jetbrains.annotations.Nullable
+    @java.lang.Override()
+    protected void onActivityResult(int requestCode, int resultCode, @org.jetbrains.annotations.Nullable()
     android.content.Intent data) {
     }
     
