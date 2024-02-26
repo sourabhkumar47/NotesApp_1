@@ -67,7 +67,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
     }
 
     private fun deleteNote() {
-        AlertDialog.Builder(Context).apply {
+        AlertDialog.Builder(requireContext()).apply {
             setTitle("Delete Note")
             setMessage("Are you sure you want to delete this note?")
             setPositiveButton("Delete") { _, _ ->
